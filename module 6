@@ -1,0 +1,223 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "aa381fa6-1f97-4dc8-91a5-0a9483e546b6",
+   "metadata": {},
+   "source": [
+    "# My Notebook"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4eefe34b-7b85-44b2-94d1-0b3f1985229f",
+   "metadata": {},
+   "source": [
+    "## Introduction \n",
+    "\n",
+    "This notebook is designed to explore data science basics, tools, and techniques. Containing various aspects of data analysis as well as visualisation."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e75e1f7c-c21f-4c39-a084-c9826fb846a9",
+   "metadata": {},
+   "source": [
+    "## Data Science Languages\n",
+    "\n",
+    "- Phyton\n",
+    "- Java\n",
+    "- SQL\n",
+    "- Julia\n",
+    "- R\n",
+    "- Scala\n",
+    "- Javascrpit"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2f14c6fe-4efe-4a50-a2ba-0f227827e300",
+   "metadata": {},
+   "source": [
+    "## Data Science Libraries\n",
+    "\n",
+    "- Pandas\n",
+    "- TensorFlow\n",
+    "- ggplot2\n",
+    "- Apache Spark\n",
+    "- NumPy\n",
+    "- D3.js\n",
+    "- Plots.jl\n",
+    "- Orange\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "cfbc506c-0ab7-4989-9a00-4676073ccd09",
+   "metadata": {},
+   "source": [
+    "| Tool                     | Description                                                  | Language/Platform        |\n",
+    "|--------------------------|--------------------------------------------------------------|---------------------------|\n",
+    "| Python                   | A versatile programming language widely used in data science | Programming Language       |\n",
+    "| R                        | A language and environment for statistical computing         | Programming Language       |\n",
+    "| Jupyter Notebook         | An open-source web application for creating documents with live code | IDE                       |\n",
+    "| RStudio                  | An IDE for R that provides a user-friendly interface         | IDE                       |\n",
+    "| Tableau                  | A powerful data visualization tool for creating dashboards   | Visualization Tool         |\n",
+    "| Power BI                 | A business analytics tool for interactive visualizations     | Visualization Tool         |\n",
+    "| Pandas                   | A Python library for data manipulation and analysis          | Python Library             |\n",
+    "| NumPy                    | A library for numerical computing in Python                  | Python Library             |\n",
+    "| Scikit-learn             | A Python library for machine learning                        | Python Library             |\n",
+    "| TensorFlow               | An open-source library for deep learning                     | Python Library             |\n",
+    "| Keras                    | A high-level neural networks API for TensorFlow              | Python Library             |\n",
+    "| PyTorch                  | An open-source machine learning library                       | Python Library             |\n",
+    "| Apache Spark             | A unified analytics engine for big data processing           | Big Data Framework         |\n",
+    "| Git                      | A version control system for tracking changes in code        | Version Control            |\n",
+    "| GitHub                   | A platform for hosting and sharing code repositories         | Collaboration Platform     |\n",
+    "| Google Cloud Platform    | Cloud services for data storage and analytics                | Cloud Platform             |\n",
+    "| Amazon Web Services      | A wide range of cloud computing services                      | Cloud Platform             |\n",
+    "| Microsoft Azure          | Cloud services for data science and analytics                | Cloud Platform             |\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5c72923f-10ca-4813-82ed-cc75d50d5b2d",
+   "metadata": {},
+   "source": [
+    "# Introduction to Arithmetic Expressions\n",
+    "\n",
+    "Arithmetic expressions are mathematical statements that combine numbers and operators to perform calculations. In programming and data science, understanding how to use arithmetic expressions is essential for data manipulation and analysis.\n",
+    "\n",
+    "## Common Arithmetic Operators\n",
+    "\n",
+    "Here are some common arithmetic operators used in programming:\n",
+    "\n",
+    "- **Addition (`+`)**: Adds two numbers.\n",
+    "- **Subtraction (`-`)**: Subtracts one number from another.\n",
+    "- **Multiplication (`*`)**: Multiplies two numbers.\n",
+    "- **Division (`/`)**: Divides one number by another.\n",
+    "- **Modulus (`%`)**: Returns the remainder of a division operation.\n",
+    "- **Exponentiation (`**`)**: Raises a number to the power of another number.\n",
+    "\n",
+    "## Examples of Arithmetic Expressions\n",
+    "\n",
+    "Here are some examples of arithmetic expressions:\n",
+    "\n",
+    "1. **Addition**: \n",
+    "   - `5 + 3` results in `8`\n",
+    "   \n",
+    "2. **Subtraction**: \n",
+    "   - `10 - 4` results in `6`\n",
+    "   \n",
+    "3. **Multiplication**: \n",
+    "   - `7 * 6` results in `42`\n",
+    "   \n",
+    "4. **Division**: \n",
+    "   - `20 / 4` results in `5.0`\n",
+    "   \n",
+    "5. **Modulus**: \n",
+    "   - `10 % 3` results in `1` (remainder of 10 divided by 3)\n",
+    "   \n",
+    "6. **Exponentiation**: \n",
+    "   - `2 ** 3` results in `8` (2 raised to the power of 3)\n",
+    "\n",
+    "Understanding these basic arithmetic expressions is fundamental for performing calculations in data science and programming.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "da9d6752-38a6-4b8c-9d0b-14c6e14e4be0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The result is: 15\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Define the numbers\n",
+    "a = 1\n",
+    "b = 7\n",
+    "c = 8\n",
+    "\n",
+    "# Multiply and add\n",
+    "result = a * b + c\n",
+    "\n",
+    "# Print the result\n",
+    "print(\"The result is:\", result)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "548e6d22-db49-468b-9470-909af0a0e29c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "360 minutes is equal to 6.0 hours.\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Define the number of minutes\n",
+    "minutes = 360\n",
+    "\n",
+    "# Convert minutes to hours\n",
+    "hours = minutes / 60\n",
+    "\n",
+    "# Print the result\n",
+    "print(f\"{minutes} minutes is equal to {hours} hours.\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8f85fd21-bd64-4a4d-9402-9f50794d33fb",
+   "metadata": {},
+   "source": [
+    "## Objectives\n",
+    "\n",
+    "- Understand the basics of Data Science\n",
+    "- Learn how to use markdown for documentation\n",
+    "- Explore data science tools and languages\n",
+    "- Practice writing and executing Python code"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ccd00469-45d0-41b5-b70b-c22921777f63",
+   "metadata": {},
+   "source": [
+    "## Author\n",
+    "\n",
+    "R.M. Abdullahi"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
